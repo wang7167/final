@@ -2,10 +2,10 @@
 #include <math.h>
 
 int main(){
-    int a,b;
+    float a,b;
     float c,d;
     printf("输入两个数:");
-    scanf("%d%d",&a,&b);
+    scanf("%e%e",&a,&b);
     c=a+b;
     d=c*c;
     printf("和的平方=%.2f\n",d);
