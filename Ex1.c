@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <math.h>
 
-main(){
+int main(){
     int a,b;
+    float c,d;
     printf("输入两个数:");
-    scanf("%2f%2f",&a,&b);
-    int c;
+    scanf("%d%d",&a,&b);
     c=a+b;
-    int d;
     d=c*c;
-    printf("和的平方=%2f\n",d);
+    printf("和的平方=%.2f\n",d);
 }
